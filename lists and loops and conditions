@@ -1,0 +1,34 @@
+# This is my first coding attempt in Python, well yes I did write the customary Hello World!
+# It explores the following concepts: 
+# while loops
+# if conditional statements
+# concept of lists or arrays
+
+###################################################################################################
+My code will find out the all the numbers that are less than 100 and are divisible by 3, 5 and 15.
+These numbers will be inserted into independent arrays named three, five and fifteen.
+Finally I am printing the array contents to get the multiple of three, five and fifteen.
+###################################################################################################
+
+iLastNumber = 0
+
+three = []
+five = []
+fifteen = []
+
+while iLastNumber < 100:
+
+	if iLastNumber % 3 == 0 and iLastNumber % 5 == 0:
+		fifteen.append(iLastNumber)
+
+	elif iLastNumber % 3 == 0:
+		three.append(iLastNumber)
+		
+	elif iLastNumber % 5 ==0:
+		five.append(iLastNumber)
+
+	iLastNumber += 1
+
+print 'array contentsof three', three
+print 'array contents of five', five
+print 'array contents of fifteen', fifteen
