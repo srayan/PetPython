@@ -1,4 +1,6 @@
 # So I have a list / array which has several numbers in it.The goal of this code is to find out the maximum sum of consecutive numbers.
+# www.srayan.tk
+
 
 iData = [7,12,93,48,56,62,71,18,9,110]
 
