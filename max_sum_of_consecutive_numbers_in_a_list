@@ -21,4 +21,4 @@ while iCount < iLength:
 print iAdd
 
 # prints the maximum sum of consecutive numbers from the list
-print max(iAdd)
+print 'The maximum sum of consecutive number additions from the list is = ', max(iAdd)
