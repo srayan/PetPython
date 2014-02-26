@@ -1,0 +1,22 @@
+# So I have a list / array which has several numbers in it.The goal of this code is to find out the maximum sum of consecutive numbers.
+
+iData = [7,12,93,48,56,62,71,18,9,110]
+
+iLength = len (iData)
+
+# print iLength
+iCount = 1
+iSum = 0
+iAdd = []
+
+while iCount < iLength:
+
+	iSum = iData[iCount-1] + iData[iCount]
+	iAdd.append (iSum)
+	iCount+=1
+
+# prints the consecutive sums in the list
+print iAdd
+
+# prints the maximum sum of consecutive numbers from the list
+print max(iAdd)
